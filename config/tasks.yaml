@@ -1,0 +1,18 @@
+extraction_task:
+  description: >
+    Analyser le fichier PDF situé dans medical_report.pdf. 
+    Lister tous les indicateurs biologiques (ex: Cholestérol, Glycémie, Tension) 
+    avec leurs unités et les valeurs de référence si disponibles.
+  expected_output: >
+    Un tableau structuré ou une liste claire de toutes les données médicales trouvées.
+  agent: medical_data_extractor
+
+diagnostic_task:
+  description: >
+    Sur la base des données extraites par l'agent précédent, évaluer l'état 
+    de santé général du patient. Identifier toute anomalie par rapport aux 
+    normes standard et expliquer les risques potentiels.
+  expected_output: >
+    Un rapport de pré-diagnostic détaillé incluant une analyse des points critiques 
+    et des recommandations d'examens complémentaires.
+  agent: medical_diagnostic_agent
