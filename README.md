@@ -195,9 +195,6 @@ Developed at:
 
 **University of Jendouba**
 
----
-
 ## 📄 License
 
 This project is developed for **academic and research purposes**.
-```
