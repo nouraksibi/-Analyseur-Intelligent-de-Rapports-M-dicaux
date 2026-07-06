@@ -16,23 +16,24 @@ Le projet repose sur l’utilisation de CrewAI et d’un modèle de langage Gemi
 6) Traitement séquentiel des agents
 
 
-*Créer un environnement virtuel : 
-      python -m venv venv 
-Activation :
-  Windows :
+* Créer un environnement virtuel : 
+      python -m venv venv
+  
+* Activation :
+  1) Windows :
      venv\Scripts\activate
-  Linux / Mac :
+  2) Linux / Mac :
     source venv/bin/activate
 
-*Installer les dépendances : 
+* Installer les dépendances : 
 
-pip install streamlit
-pip install pyyaml
-pip install python-dotenv
-pip install PyPDF2
-pip install crewai
-pip install "crewai[google-genai]"
-pip install google-generativeai
+1) pip install streamlit
+2) pip install pyyaml
+3) pip install python-dotenv
+4) pip install PyPDF2
+5) pip install crewai
+6) pip install "crewai[google-genai]"
+7) pip install google-generativeai
 
-*Lancer l’application :
+* Lancer l’application :
 streamlit run main.py
